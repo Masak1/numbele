@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>Numberle</title>
+  <meta http-equiv="content-type" charset="UTF-8">
+  <meta name="description" content="Wordleの数字版">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <h1 class="title">Numberle</h1>
+  <div class="seed-description">
+    Seedを指定したい場合は整数で入力し「再開」を押してください
+  </div>
+  <div class="seed-input">
+    <p>Seed: </p>
+    <input class="seed-input-area" type="text" id="seed-input-textbox" onkeydown="enterSeed(event)" />
+    <button class="seed-input-button" onclick="seedSubmit()">
+      再開
+    </button>
+    <button class="seed-random-input-button" onclick="seedRandomSubmit()">
+      ランダムで再開
+    </button>
+    <button class="tweet-record-button" onclick="openTwitterLink()">
+      結果をツイート
+    </button>
+  </div>
+  <div id="squares-wrapper"></div>
+  <div class="keypad-wrapper">
+    <div class="answer-keypad" id="keypad-upper"></div>
+  </div>
+  <div class="keypad-wrapper">
+    <div class="answer-keypad" id="keypad-lower"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

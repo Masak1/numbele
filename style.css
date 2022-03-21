@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.seed-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+.seed-input {
+  color: black;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.seed-input-area {
+  background-color: white;
+  border: #d3d6da 2px solid;
+  height: 30px;
+  width: auto;
+  max-width: 100px;
+  margin-left: 4px;
+  font-size: 24px;
+  color: black;
+}
+
+.seed-random-input-button {
+  background-color: white;
+  border: #d3d6da 2px solid;
+  color: black;
+  height: 36px;
+  width: auto;
+  min-width: 130px;
+  margin-left: 4px;
+  font-size: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.seed-input-button {
+  background-color: white;
+  border: #d3d6da 2px solid;
+  color: black;
+  height: 36px;
+  width: auto;
+  min-width: 50px;
+  margin-left: 4px;
+  font-size: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tweet-record-button {
+  background-color: #1d9bf0;
+  border: white 2px solid;
+  color: white;
+  height: 36px;
+  margin-left: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 0 0 1px white, 0 0 0 3px #1d9bf0;
+  border-radius: 10px;
+}
+
+.answer-keypad {
+  color: black;
+  justify-content: center;
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.answer-keypad-key-wrapper {
+  position: relative;
+  width: 100%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.answer-keypad-key-wrapper::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+
+.answer-keypad-key {
+  background-color: #d3d6da;
+  color: black;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-size: 200%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.green {
+  background-color: #6aaa64 !important;
+}
+
+.yellow {
+  background-color: #c9b458 !important;
+}
+
+.grey {
+  background-color: #787c7e !important;
+}
+
+.not-used {
+  background-color: #d3d6da !important;
+}
+
+.none-cell {
+  background-color: white !important;
+}
+
+.cell-border {
+  border: #d3d6da 2px solid !important;
+}
+
+.square-char-color {
+  color: white;
+}
